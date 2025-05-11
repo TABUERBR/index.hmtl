@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mensagem de Dia das Mães</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffe3ed;
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .envelope {
+            margin: 50px auto;
+            width: 300px;
+            height: 200px;
+            background: #fff0f5;
+            border: 2px solid #f48fb1;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .message {
+            color: #880e4f;
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        .heart {
+            font-size: 2em;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div class="envelope">
+        <div class="heart">❤️</div>
+        <div class="message">Feliz Dia das Mães, Janaina!<br>Te amo muito! 💖</div>
+    </div>
+</body>
+</html>
